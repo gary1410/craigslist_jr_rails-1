@@ -1,0 +1,12 @@
+
+development:
+  adapter: postgresql
+  database: craigslist_jr_development
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  database: craigslist_jr_test
+  pool: 5
+  timeout: 5000
